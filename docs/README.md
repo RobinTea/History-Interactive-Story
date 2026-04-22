@@ -9,3 +9,9 @@ Entering two POVs (Point Of Views) of two soldiers that kept their cool and prev
 1983 [Stanislav Petrow](https://en.wikipedia.org/wiki/Stanislav_Petrov) → Soviet [nuclear false alarm incident](https://en.wikipedia.org/wiki/1983_Soviet_nuclear_false_alarm_incident)
 
 1962 [Vasily Archipow](https://en.wikipedia.org/wiki/Vasily_Arkhipov) → nuclear torpedo on a Soviet [submarine](https://en.wikipedia.org/wiki/Soviet_submarine_B-59)
+
+using 
+
+| HTML |  CSS | JS |
+|:----:|:----:|:--:|
+
