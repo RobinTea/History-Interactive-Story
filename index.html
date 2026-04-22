@@ -1,0 +1,85 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Near WW3 — Terminal Decisions</title>
+    <meta
+      name="description"
+      content="An interactive neon terminal story about near-misses that almost became World War III."
+    />
+    <link rel="stylesheet" href="./assets/styles.css" />
+  </head>
+  <body>
+    <a class="skipLink" href="#app">Skip to content</a>
+
+    <main id="app" class="shell">
+      <header class="topbar">
+        <div class="brand">
+          <span class="brandMark">▶</span>
+          <span class="brandText"> NEAR_WW3</span>
+        </div>
+        <div class="topbarRight">
+          <a class="brandLink" href="https://github.com/RobinTea" target="_blank">about</a>
+        </div>
+      </header>
+
+      <section class="hero">
+        <p class="kicker">This is a work of interactive fiction based on historical events, with speculative endings.</p>
+        <h1 class="heroTitle">One decision - 13 seconds - One world that can end</h1>
+        <p class="heroText">
+          You're dropped into two real historical nuclear close calls. Information arrives line by line.
+          Press <kbd>Space</kbd> to continue. When the timer starts, choose fast, choose wiseley, choose correctly or see the end of the world.
+        </p>
+
+        <div class="ctaRow">
+          <button id="startBtn" class="primaryBtn" type="button">Start</button>
+          <button id="aboutBtn" class="ghostBtn" type="button">How it works</button>
+        </div>
+      </section>
+
+      <section id="routeSelect" class="panel hidden" aria-labelledby="routeTitle">
+        <h2 id="routeTitle" class="panelTitle">Choose a route</h2>
+        <div class="routeGrid">
+          <article class="routeCard">
+            <div class="routeTag">1983</div>
+            <h3 class="routeTitle">Stanislav Petrov</h3>
+            <p class="routeBlurb">
+              Early-warning screens light up. Phones ring. You must decide whether to report an
+              attack or a malfunction.
+            </p>
+            <a class="primaryBtn asLink" href="./story.html?route=petrov">Enter Petrov POV</a>
+          </article>
+
+          <article class="routeCard">
+            <div class="routeTag">1962</div>
+            <h3 class="routeTitle">Vasili Arkhipov</h3>
+            <p class="routeBlurb">
+              A submarine bakes under pressure near Cuba. Explosions echo. You must decide whether
+              the war has already started.
+            </p>
+            <a class="primaryBtn asLink" href="./story.html?route=arkhipov">Enter Arkhipov POV</a>
+          </article>
+        </div>
+      </section>
+
+      <section id="about" class="panel hidden" aria-labelledby="aboutTitle">
+        <h2 id="aboutTitle" class="panelTitle">How it works</h2>
+        <ul class="bullets">
+          <li><strong>Console feed:</strong> narration arrives line by line.</li>
+          <li><strong>Press Space:</strong> advance when no choice is active.</li>
+          <li><strong>Timed choices:</strong> some actions must be chosen before countdown ends.</li>
+          <li><strong>Consequences:</strong> your choices change tension, trust, and outcomes.</li>
+        </ul>
+      </section>
+
+      <footer class="footer">
+        <p class="footerText">
+          This is a work of interactive fiction based on historical events, with speculative endings.
+        </p>
+      </footer>
+    </main>
+
+    <script src="./src/app.js" type="module"></script>
+  </body>
+</html>
